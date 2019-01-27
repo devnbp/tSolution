@@ -4,6 +4,7 @@
     <list default="true" id="ec0689fe-b138-4407-b484-09d280ee6b51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3_source_from_jdcore/TitlesFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_source_from_jdcore/TitlesFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TitlesFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/TitlesFrame.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +40,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="57" />
+          <entry key="java" value="59" />
           <entry key="txt" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="57" />
+          <entry key="JAVA" value="59" />
           <entry key="PLAIN_TEXT" value="49" />
         </counts>
       </usages-collector>
@@ -65,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/ShapeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="-256">
               <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/TitlesFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="96">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -140,6 +141,11 @@
             </path>
             <path>
               <item name="tSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tSolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -153,7 +159,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548597940236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548598391706" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -212,7 +218,7 @@
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25825346" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25825346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -222,12 +228,12 @@
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946752" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" weight="0.28864864" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" weight="0.51135135" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -289,7 +295,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/ShapeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="-256">
           <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -299,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/TitlesFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="96">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
