@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec0689fe-b138-4407-b484-09d280ee6b51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/tSolution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tSolution.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3_source_from_jdcore/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_source_from_jdcore/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3_source_from_jdcore/TitlesPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_source_from_jdcore/TitlesPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3_source_from_jdcore/TitlesFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_source_from_jdcore/TitlesFrame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +17,10 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,13 +39,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="56" />
+          <entry key="java" value="57" />
           <entry key="txt" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="56" />
+          <entry key="JAVA" value="57" />
           <entry key="PLAIN_TEXT" value="49" />
         </counts>
       </usages-collector>
@@ -66,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/ShapeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="128">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,13 +75,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output/TitlesPanel.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/TitlesFrame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -94,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/TitlesPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+            <state relative-caret-position="624">
+              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,11 +104,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/matlakhov.txt" />
-        <option value="$PROJECT_DIR$/lab3_source_from_jdcore/TitlesFrame.java" />
         <option value="$PROJECT_DIR$/lab3_source_from_jdcore/lab3/TitlesFrame.java" />
         <option value="$PROJECT_DIR$/lab3_source_from_jdcore/lab3/TitlesPanel.java" />
         <option value="$PROJECT_DIR$/lab3_source_from_jdcore/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/lab3_source_from_jdcore/TitlesPanel.java" />
+        <option value="$PROJECT_DIR$/lab3_source_from_jdcore/TitlesFrame.java" />
       </list>
     </option>
   </component>
@@ -134,9 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,22 +140,20 @@
             </path>
             <path>
               <item name="tSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tSolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548595242744" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548597940236" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -185,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.lab3.jar">
+  <component name="RunManager" selected="Application.TitlesFrame">
     <configuration name="TitlesFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TitlesFrame" />
       <module name="tSolution" />
@@ -203,8 +190,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.lab3.jar" />
         <item itemvalue="Application.TitlesFrame" />
+        <item itemvalue="JAR Application.lab3.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +212,7 @@
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25559106" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25825346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,59 +249,16 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/branch.txt" />
-    <entry file="file://$PROJECT_DIR$/matlakhov.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/lab3/TitlesFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/lab3/TitlesPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/lab3/TitlesFrame.java" />
+    <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/lab3/TitlesPanel.java" />
     <entry file="file://$PROJECT_DIR$/output/ShapeFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-720" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShapeFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-768">
-          <folding>
-            <element signature="e#0#3118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TitlesFrame1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TitlesFrame.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ShapeFactory.class" />
+    <entry file="file://$PROJECT_DIR$/TitlesFrame1.class" />
+    <entry file="file://$PROJECT_DIR$/TitlesFrame.class" />
     <entry file="file://$PROJECT_DIR$/output/TitlesFrame.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -322,15 +266,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TitlesPanel.class">
+    <entry file="file://$PROJECT_DIR$/TitlesPanel.class" />
+    <entry file="file://$PROJECT_DIR$/matlakhov.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/TitlesPanel.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/TitlesPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        <state relative-caret-position="624">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -342,21 +302,6 @@
         <state relative-caret-position="432">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab3_source_from_jdcore/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/TitlesPanel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432" />
       </provider>
     </entry>
   </component>
