@@ -33,26 +33,26 @@ public class TitlesPanel extends javax.swing.JPanel implements java.awt.event.Ac
     g2d = ((Graphics2D)g);
     g2d.setRenderingHint(java.awt.RenderingHints.KEY_ANTIALIASING, 
       java.awt.RenderingHints.VALUE_ANTIALIAS_ON);
-    
+
     java.awt.Dimension size = getSize();
     Insets insets = getInsets();
-    
-    int w = width - left - right;
-    int h = height - top - bottom;
+
+    int w = size.width - insets.left - insets.right;
+    int h = size.height - insets.top - insets.bottom;
     
     ShapeFactory shape = new ShapeFactory(this.shape);
-    g2d.setStroke(stroke);
-    g2d.setPaint(paint);
+    g2d.setStroke(shape.stroke);
+    g2d.setPaint(shape.paint);
     double angle = start_angle++;
     if (start_angle > 360) start_angle = 0;
-    double dr = 90.0D / (w / (width * 1.5D));
-    for (int j = height; j < h; j = (int)(j + height * 1.5D))
-      for (int i = width; i < w; i = (int)(i + width * 1.5D)) {
+    double dr = 90.0D / (w / (shape.width * 1.5D));
+    for (int j = shape.height; j < h; j = (int)(j + shape.height * 1.5D))
+      for (int i = shape.width; i < w; i = (int)(i + shape.width * 1.5D)) {
         angle = angle > 360.0D ? 0.0D : angle + dr;
         AffineTransform transform = new AffineTransform();
         transform.translate(i, j);
         transform.rotate(Math.toRadians(angle));
-        g2d.draw(transform.createTransformedShape(shape));
+        g2d.draw(transform.createTransformedShape(shape.shape));
       }
     is_done = true;
   }

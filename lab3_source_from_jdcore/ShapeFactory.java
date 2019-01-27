@@ -67,7 +67,7 @@ public class ShapeFactory
     for (int i = 0; i < 2 * arms; i++)
     {
       double r = (i & 0x1) == 0 ? rOuter : rInner;
-      java.awt.geom.Point2D.Double p = new java.awt.geom.Point2D.Double(x + Math.cos(i * angle) * r, y + Math.sin(i * angle) * r);
+      java.awt.geom.Point2D.Double p = new java.awt.geom.Point2D.Double(center.x + Math.cos(i * angle) * r, center.y + Math.sin(i * angle) * r);
       if (i == 0) path.moveTo(p.getX(), p.getY()); else
         path.lineTo(p.getX(), p.getY());
     }
