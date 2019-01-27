@@ -11,7 +11,11 @@ public class TitlesPanel extends javax.swing.JPanel implements java.awt.event.Ac
   private boolean is_done;
   private int start_angle = 0;
   private int shape;
-  
+
+  /**
+   * Constructing panel
+   * @param _shape value that using for initializing shape type in {@link ShapeFactory#ShapeFactory(int)}
+   */
   public TitlesPanel(int _shape) {
     is_done = true;
     shape = _shape;
@@ -27,7 +31,11 @@ public class TitlesPanel extends javax.swing.JPanel implements java.awt.event.Ac
       repaint();
     }
   }
-  
+
+  /**
+   * Method allow us to draw our shapes from {@link ShapeFactory}
+   * @param g Abstract class for graphics context
+   */
   private void doDrawing(Graphics g) {
     is_done = false;
     g2d = ((Graphics2D)g);

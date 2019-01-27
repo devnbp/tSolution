@@ -8,7 +8,11 @@ public class ShapeFactory
   public java.awt.Paint paint;
   public int width = 25;
   public int height = 25;
-  
+
+  /**
+   * @param shape_type 2-digit value, 1st digit - shape type, 2nd digit - stroke or painting type
+   * @throws Error "type is unsupported" if one of shape_type digits is unavailable
+   */
   public ShapeFactory(int shape_type) {
     stroke = new java.awt.BasicStroke(3.0F);
     switch (shape_type / 10) {
@@ -36,7 +40,7 @@ public class ShapeFactory
       break;
     case 2: case 4: case 6: 
     case 8: default: 
-      throw new Error("type is nusupported");
+      throw new Error("type is unsupported");
     }
     switch (shape_type % 10) {
     case 1:  stroke = new java.awt.BasicStroke(3.0F);
@@ -54,10 +58,17 @@ public class ShapeFactory
       paint = java.awt.Color.red;
       break;
     case 2: case 5: case 6: default: 
-      throw new Error("type is nusupported");
+      throw new Error("type is unsupported");
     }
   }
-  
+
+  /**
+   * @param arms Count of star vertices
+   * @param center Center point of star
+   * @param rOuter Outside radius
+   * @param rInner Inside radius
+   * @return Painting path
+   */
   private static java.awt.Shape createStar(int arms, Point center, double rOuter, double rInner)
   {
     double angle = 3.141592653589793D / arms;
