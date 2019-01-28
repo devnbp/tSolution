@@ -1,7 +1,11 @@
-import javax.swing.JFrame;
+import javax.swing.*;
 
 public class TitlesFrame extends JFrame
 {
+  private static final String title = "Кривые фигуры";
+  private static final int width = 350;
+  private static final int height = 350;
+  private static final int shapeType = 94;
   /**
    * Initializing JFrame user interface
    */
@@ -15,10 +19,10 @@ public class TitlesFrame extends JFrame
    */
   private void initUI()
   {
-    setTitle("Кривые фигуры");
-    setDefaultCloseOperation(3);
-    add(new TitlesPanel(94));
-    setSize(350, 350);
+    setTitle(title);
+    setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    add(new TitlesPanel(shapeType));
+    setSize(width, height);
     setLocationRelativeTo(null);
   }
 

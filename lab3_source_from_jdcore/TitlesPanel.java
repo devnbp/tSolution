@@ -14,7 +14,7 @@ public class TitlesPanel extends javax.swing.JPanel implements java.awt.event.Ac
 
   /**
    * Constructing panel
-   * @param _shape value that using for initializing shape type in {@link ShapeFactory#ShapeFactory(int)}
+   * @param _shape value that using for initializing shape type in {@link ShapeFactory#getShape(int)}
    */
   public TitlesPanel(int _shape) {
     is_done = true;
@@ -48,9 +48,9 @@ public class TitlesPanel extends javax.swing.JPanel implements java.awt.event.Ac
     int w = size.width - insets.left - insets.right;
     int h = size.height - insets.top - insets.bottom;
     
-    ShapeFactory shape = new ShapeFactory(this.shape);
-    g2d.setStroke(shape.stroke);
-    g2d.setPaint(shape.paint);
+    Form shape = new ShapeFactory().getShape(this.shape);
+    g2d.setStroke(shape.getStroke());
+    g2d.setPaint(shape.getPaint());
     double angle = start_angle++;
     if (start_angle > 360) start_angle = 0;
     double dr = 90.0D / (w / (shape.width * 1.5D));
@@ -60,7 +60,7 @@ public class TitlesPanel extends javax.swing.JPanel implements java.awt.event.Ac
         AffineTransform transform = new AffineTransform();
         transform.translate(i, j);
         transform.rotate(Math.toRadians(angle));
-        g2d.draw(transform.createTransformedShape(shape.shape));
+        g2d.draw(transform.createTransformedShape(shape.getPath()));
       }
     is_done = true;
   }
