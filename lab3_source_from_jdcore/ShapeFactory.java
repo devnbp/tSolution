@@ -13,13 +13,13 @@ public class ShapeFactory
    * @param type shape type
    * @throws Error "type is unsupported" if shape type is unavailable
    */
-  private void createShape(int type){
+  private void createShape(final int type){
     switch (type) {
       case 1:
         shape = new Star(width, height, 3, new Point(0, 0), 2.0D, 2.0D);
         break;
       case 3:
-        shape = new Star(width, height,5, new Point(0, 0), 2.0D, 4.0D);
+        shape = new Star(width, height, 5, new Point(0, 0), 2.0D, 4.0D);
         break;
       case 5:
         shape = new Form(width, height);
